@@ -1,0 +1,235 @@
+.visa-international-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text7,
+.text8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.text7 {
+  font-weight: 500;
+}
+.text8 {
+  font-size: 16px;
+  color: #9d9d9d;
+}
+.card-title1,
+.text9 {
+  align-self: stretch;
+  display: flex;
+}
+.card-title1 {
+  background-color: transparent;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 8px;
+  gap: 8px;
+}
+.text9 {
+  height: 24px;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  align-items: center;
+}
+.card-body2,
+.card-subtitle1 {
+  align-self: stretch;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-subtitle1 {
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  justify-content: center;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: "Helvetica Neue";
+}
+.card-body2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 8px;
+  gap: 8px;
+  font-size: 18px;
+}
+.text10 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.ignore4,
+.ignore5 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.min-width-change-size-here2 {
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 184%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.componentslist-group-item2,
+.content4 {
+  align-self: stretch;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.componentslist-group-item2 {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  justify-content: center;
+  padding: 8px 16px;
+}
+.text11 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.ignore6,
+.ignore7 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.min-width-change-size-here3 {
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 184%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.content5 {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+}
+.componentslist-group-item3,
+.content5,
+.list-group1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.componentslist-group-item3 {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+}
+.list-group1 {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.13) inset,
+    0-1px 0 rgba(0, 0, 0, 0.13) inset;
+  display: none;
+  justify-content: flex-start;
+  color: #212529;
+  font-family: "Helvetica Neue";
+}
+.text12 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.texttext2 {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.text13 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.texttext3 {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.layout-blockshorizontal21 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.card-body3,
+.card-items1,
+.content3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card-body3 {
+  align-self: stretch;
+  background-color: transparent;
+  display: none;
+  padding: 16px;
+  color: #0d6efd;
+  font-family: Inter;
+}
+.card-items1,
+.content3 {
+  width: 250px;
+  display: flex;
+}
+.card-items1 {
+  position: absolute;
+  top: 420px;
+  left: 1380px;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  border: 1px solid #cabfbf;
+  box-sizing: border-box;
+  width: 426px;
+  height: 380px;
+  padding: 16px 21px 16px 15px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: Poppins;
+}

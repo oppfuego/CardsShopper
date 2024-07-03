@@ -1,0 +1,238 @@
+.morri-gb-card-icon,
+.text,
+.text1 {
+  align-self: stretch;
+  position: relative;
+}
+.morri-gb-card-icon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.text,
+.text1 {
+  line-height: 22px;
+}
+.text {
+  font-weight: 500;
+}
+.text1 {
+  font-size: 16px;
+  color: #9d9d9d;
+}
+.card-title,
+.text2 {
+  align-self: stretch;
+  display: flex;
+}
+.card-title {
+  background-color: transparent;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 8px;
+  gap: 8px;
+}
+.text2 {
+  height: 24px;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  align-items: center;
+}
+.card-body,
+.card-subtitle {
+  align-self: stretch;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-subtitle {
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  justify-content: center;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: "Helvetica Neue";
+}
+.card-body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 8px;
+  gap: 8px;
+  font-size: 18px;
+}
+.text3 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.ignore,
+.ignore1 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.min-width-change-size-here {
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 184%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.componentslist-group-item,
+.content1 {
+  align-self: stretch;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.componentslist-group-item {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  justify-content: center;
+  padding: 8px 16px;
+}
+.text4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.ignore2,
+.ignore3 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.min-width-change-size-here1 {
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 184%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.content2 {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+}
+.componentslist-group-item1,
+.content2,
+.list-group {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.componentslist-group-item1 {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+}
+.list-group {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.13) inset,
+    0-1px 0 rgba(0, 0, 0, 0.13) inset;
+  display: none;
+  justify-content: flex-start;
+  color: #212529;
+  font-family: "Helvetica Neue";
+}
+.text5 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.texttext {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.text6 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.texttext1 {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.layout-blockshorizontal2 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.card-body1,
+.card-items,
+.content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card-body1 {
+  align-self: stretch;
+  background-color: transparent;
+  display: none;
+  padding: 16px;
+  color: #0d6efd;
+  font-family: Inter;
+}
+.card-items,
+.content {
+  width: 250px;
+  display: flex;
+}
+.card-items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  border: 1px solid #cabfbf;
+  box-sizing: border-box;
+  width: 420px;
+  height: 380px;
+  padding: 16px 15px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: Poppins;
+}

@@ -1,0 +1,91 @@
+.most-popular-giftcards11 {
+  margin: 0;
+  width: 454px;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.popular,
+.popular-cards1,
+.popular-title {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.popular-cards1 {
+  display: grid;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(301px, 1fr));
+  font-size: 18px;
+}
+.popular,
+.popular-title {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.popular-title {
+  background-color: #f4f1ff;
+  justify-content: center;
+  padding: 80px 120px;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.popular {
+  height: 946.4px;
+  justify-content: flex-start;
+  padding: 0 0;
+  text-align: left;
+  font-size: 40px;
+  color: #545454;
+  font-family: Gotham;
+}
+@media screen and (max-width: 1450px) {
+  .popular-cards1 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(301px, 523px));
+  }
+  .popular {
+    padding-bottom: 242px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .popular-title {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+  .popular {
+    height: auto;
+  }
+}
+@media screen and (max-width: 825px) {
+  .most-popular-giftcards11 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .popular-cards1 {
+    grid-template-columns: minmax(301px, 1fr);
+  }
+  .popular-title {
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+  .popular {
+    padding-bottom: 157px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .most-popular-giftcards11 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}

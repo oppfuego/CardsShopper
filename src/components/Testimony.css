@@ -1,0 +1,181 @@
+.hear-it-directly,
+.where-client-reviews {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.where-client-reviews {
+  width: 586px;
+  line-height: 29px;
+  display: inline-block;
+}
+.testimonial-subtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 24px;
+}
+.testimonial-container,
+.testimonial-title {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonial-title {
+  width: 750px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.testimonial-container {
+  width: 1004px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.testimonial-image-icon {
+  width: 379px;
+  position: relative;
+  border-radius: 12px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.we-recently-had {
+  align-self: stretch;
+  height: 167px;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.bruce-payne {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.lawyer {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 66px;
+}
+.testimonial-author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.arrow-icon {
+  height: 47.3px;
+  width: 116px;
+  position: relative;
+}
+.testimonial-author {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 32px;
+  color: #1c1c1c;
+}
+.we-recently-had-the-pleasure-o-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 370px;
+  max-width: 100%;
+}
+.testimonial-content {
+  width: 1004px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 55px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+.testimony {
+  align-self: stretch;
+  border: 1px solid #5a5a5a;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 78px 20px;
+  gap: 90px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #1c1c1c;
+  font-family: Poppins;
+  margin-top: 150px;
+}
+@media screen and (max-width: 1350px) {
+  .testimony {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hear-it-directly {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .testimonial-image-icon {
+    flex: 1;
+  }
+  .bruce-payne {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .testimonial-content {
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .testimony {
+    gap: 22px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hear-it-directly {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .bruce-payne,
+  .where-client-reviews {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .testimonial-author {
+    flex-wrap: wrap;
+  }
+  .we-recently-had-the-pleasure-o-parent {
+    min-width: 100%;
+  }
+}

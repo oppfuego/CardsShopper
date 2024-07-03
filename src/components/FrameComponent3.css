@@ -1,0 +1,79 @@
+.trending-gift-cards {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.trending-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 32px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.trending-card-grid {
+  align-self: stretch;
+  height: 800px;
+  position: relative;
+  max-width: 100%;
+}
+.trending,
+.trending-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.trending {
+  flex: 1;
+  border: 1px solid #5a5a5a;
+  flex-direction: column;
+  padding: 78px 56px;
+  gap: 40px;
+}
+.trending-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 176px;
+  text-align: left;
+  font-size: 32px;
+  color: #1c1c1c;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1350px) {
+  .trending {
+    padding: 51px 28px;
+    box-sizing: border-box;
+  }
+  .trending-wrapper {
+    padding-bottom: 114px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .trending-gift-cards {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .trending {
+    gap: 20px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    box-sizing: border-box;
+  }
+  .trending-wrapper {
+    padding-bottom: 74px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trending-gift-cards {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

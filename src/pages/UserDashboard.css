@@ -1,0 +1,23 @@
+.user-dashboard {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 120px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .user-dashboard {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .user-dashboard {
+    gap: 30px;
+  }
+}

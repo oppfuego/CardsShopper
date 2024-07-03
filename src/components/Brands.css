@@ -1,0 +1,276 @@
+.explore-brands {
+  margin: 0;
+  width: 303px;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.card-design-fenty {
+  align-self: stretch;
+  width: 150px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 102px;
+}
+.logo-containers {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #ceef51, #efffa7);
+}
+.image-1-icon1 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-rolex {
+  height: 102px;
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-adidas-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #45ebf7, #83f7d2);
+}
+.image-1-icon2 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-adidas1 {
+  height: 102px;
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-nike-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #cba1f9, #eab4ff);
+}
+.image-1-icon3 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-fenty1,
+.card-design-nike {
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-nike {
+  height: 102px;
+}
+.card-design-fenty1 {
+  align-self: stretch;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 102px;
+}
+.card-design-rolex-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #ceef51, #efffa7);
+}
+.image-1-icon4 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-rolex1 {
+  height: 102px;
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-adidas-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #45ebf7, #83f7d2);
+}
+.image-1-icon5 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-adidas2 {
+  height: 102px;
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-nike-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #cba1f9, #eab4ff);
+}
+.image-1-icon6 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-fenty2,
+.card-design-nike1 {
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-nike1 {
+  height: 102px;
+}
+.card-design-fenty2 {
+  align-self: stretch;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 102px;
+}
+.card-design-rolex-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.39%;
+  right: 0;
+  bottom: -0.39%;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #ceef51, #efffa7);
+}
+.image-1-icon7 {
+  position: absolute;
+  height: 42.75%;
+  top: 25.1%;
+  bottom: 32.16%;
+  left: calc(50% - 38.8px);
+  max-height: 100%;
+  width: 77.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+.card-design-fenty3,
+.card-design-rolex2 {
+  width: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+.card-design-rolex2 {
+  height: 102px;
+}
+.card-design-fenty3 {
+  align-self: stretch;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 102px;
+}
+.brand-logos,
+.brands1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.brand-logos {
+  width: 1800px;
+  overflow-x: auto;
+  flex-direction: row;
+}
+.brands1 {
+  flex-direction: column;
+  padding: 0 0 80px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 40px;
+  color: #545454;
+  font-family: Gotham;
+}
+@media screen and (max-width: 1050px) {
+  .explore-brands {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-brands {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}

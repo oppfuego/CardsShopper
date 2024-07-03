@@ -1,0 +1,569 @@
+.product-image-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.shoes,
+.wallets {
+  margin: 0;
+}
+.shoes-wallets-container {
+  margin: 0;
+  position: relative;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 400;
+  font-family: Gotham;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.product-title {
+  height: 131.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.usd-100-10001 {
+  width: 141px;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.card-designshoes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 146.6px 53px 151.9px;
+  position: relative;
+}
+.discover-the-perfect,
+.note {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #a7a7a7;
+  text-align: left;
+  display: inline-block;
+}
+.note {
+  width: 49px;
+}
+.discover-the-perfect {
+  align-self: stretch;
+  height: 110px;
+}
+.voucher-note {
+  align-self: stretch;
+  gap: 16px;
+}
+.card-designshoes-parent,
+.voucher-info,
+.voucher-note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.voucher-info {
+  align-self: stretch;
+  gap: 27px;
+}
+.card-designshoes-parent {
+  width: 689px;
+  gap: 66px;
+  min-width: 689px;
+  max-width: 100%;
+}
+.introducing-the-shoes,
+.shoes-wallet {
+  align-self: stretch;
+  position: relative;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+}
+.shoes-wallet {
+  margin: 0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.introducing-the-shoes {
+  height: 88px;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+}
+.card-title2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.gift-a-friend,
+.i-would-like {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  text-align: left;
+}
+.i-would-like {
+  width: 136px;
+  color: #545454;
+  display: inline-block;
+}
+.gift-a-friend {
+  flex: 1;
+  color: #fff;
+}
+.recipient-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 30px;
+  background-color: #533fac;
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 112px;
+  white-space: nowrap;
+}
+.recipient-buttons:hover {
+  background-color: #7a66d4;
+}
+.gift-myself {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+  display: inline-block;
+  min-width: 95px;
+}
+.recipient-buttons1 {
+  cursor: pointer;
+  border: 1px solid #787878;
+  padding: 16px 29px;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.recipient-buttons1:hover {
+  background-color: rgba(145, 145, 145, 0.09);
+  border: 1px solid #919191;
+  box-sizing: border-box;
+}
+.recipient,
+.recipient-options {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.recipient-options {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.recipient {
+  width: 351px;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+.gift-card-worth,
+.usd-200 {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+}
+.gift-card-worth {
+  width: 147px;
+  display: inline-block;
+}
+.usd-200 {
+  flex: 1;
+}
+.amount-values {
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 29px;
+  min-width: 93px;
+  max-width: 153px;
+  white-space: nowrap;
+}
+.usd-500 {
+  flex: 1;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #fff;
+  text-align: left;
+}
+.amount-values1 {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 30px;
+  background-color: #533fac;
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 93px;
+  max-width: 153px;
+  white-space: nowrap;
+}
+.amount-values1:hover {
+  background-color: #7a66d4;
+}
+.usd-700 {
+  flex: 1;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+}
+.amount-values2 {
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 29px;
+  min-width: 93px;
+  max-width: 153px;
+  white-space: nowrap;
+}
+.usd-1000 {
+  flex: 1;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+}
+.amount-values3 {
+  cursor: pointer;
+  border: 1px solid #787878;
+  padding: 16px 29px;
+  background-color: transparent;
+  flex: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 102px;
+  max-width: 162px;
+  white-space: nowrap;
+}
+.amount-values3:hover {
+  background-color: rgba(145, 145, 145, 0.09);
+  border: 1px solid #919191;
+  box-sizing: border-box;
+}
+.amount,
+.amount-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+.amount-options {
+  align-self: stretch;
+  flex-direction: row;
+}
+.amount {
+  width: 693px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.select-your-quantity {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: left;
+}
+.add-button-child {
+  align-self: stretch;
+  width: 48px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #533fac;
+  display: none;
+  z-index: 0;
+}
+.add-icon {
+  height: 19px;
+  width: 19px;
+  position: absolute;
+  margin: 0 !important;
+  top: 17px;
+  left: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.add-button {
+  height: 50px;
+  width: 48px;
+  border-radius: 8px;
+  background-color: #533fac;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+}
+.empty-label {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #545454;
+  text-align: center;
+  display: inline-block;
+  min-width: 13px;
+}
+.empty-quantity {
+  width: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 0 0;
+  box-sizing: border-box;
+}
+.add-button-item {
+  height: 50px;
+  width: 48px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #533fac;
+  display: none;
+}
+.add-icon1 {
+  width: 11.7px;
+  height: 1.7px;
+  position: relative;
+}
+.add-icon-wrapper {
+  height: 4.3px;
+  flex-direction: column;
+  padding: 2px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.add-button1,
+.add-icon-wrapper,
+.quantity,
+.quantity-controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.add-button1 {
+  width: 48px;
+  border-radius: 8px;
+  background-color: #533fac;
+  flex-direction: row;
+  padding: 25px 16px 20.7px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.quantity,
+.quantity-controls {
+  gap: 24px;
+}
+.quantity-controls {
+  border-radius: 8px;
+  background-color: #f4f1ff;
+  flex-direction: row;
+}
+.quantity {
+  width: 184px;
+  flex-direction: column;
+}
+.tag-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button3 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Gotham;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.tag-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 20px;
+  background-color: #533fac;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.content6,
+.frame-container,
+.gift-card {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.gift-card {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+  min-width: 529px;
+}
+.content6,
+.frame-container {
+  flex-direction: row;
+}
+.frame-container {
+  margin: 0;
+  width: 1569px;
+  justify-content: flex-start;
+  gap: 66px;
+}
+.content6 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1450px) {
+  .card-designshoes-parent {
+    flex: 1;
+  }
+  .frame-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .shoes-wallets-container {
+    font-size: 48px;
+    line-height: 54px;
+  }
+  .card-designshoes-parent {
+    gap: 33px;
+    min-width: 100%;
+  }
+  .shoes-wallet {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .amount-options {
+    flex-wrap: wrap;
+  }
+  .gift-card {
+    min-width: 100%;
+  }
+  .frame-container {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shoes-wallets-container {
+    font-size: 36px;
+    line-height: 41px;
+  }
+  .card-designshoes {
+    padding: 95px 20px 99px;
+    box-sizing: border-box;
+  }
+  .card-designshoes-parent {
+    gap: 16px;
+  }
+  .shoes-wallet {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .recipient-options {
+    flex-wrap: wrap;
+  }
+  .gift-card {
+    gap: 24px;
+  }
+  .frame-container {
+    gap: 16px;
+  }
+}

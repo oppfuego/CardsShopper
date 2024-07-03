@@ -1,0 +1,349 @@
+.motto {
+  width: 233px;
+  height: 19px;
+  position: relative;
+  display: none;
+}
+.group-icon1 {
+  height: 68px;
+  width: 246px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.3px;
+  left: 0;
+}
+.logo-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+  border: none;
+}
+.text-0-icon {
+  width: 176.1px;
+  height: 35px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16.2px;
+  right: 34.7px;
+  z-index: 1;
+}
+.wisconsin-ave-suite {
+  position: relative;
+  flex-shrink: 0;
+}
+.logo-parent {
+  height: 120.7px;
+  width: 245.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 34.3px;
+  font-size: 16px;
+}
+.product,
+.sale,
+.shop {
+  position: relative;
+  display: inline-block;
+  min-width: 42px;
+}
+.product,
+.sale {
+  min-width: 49px;
+}
+.sale {
+  min-width: 27px;
+}
+.complaints,
+.return-policy,
+.track-order {
+  position: relative;
+  display: inline-block;
+  min-width: 82px;
+  text-decoration: none;
+    color: #fff;
+}
+
+
+.complaints,
+.track-order {
+  min-width: 73px;
+}
+.complaints {
+  min-width: 72px;
+}
+.footer-link-columns,
+.shop-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-link-columns {
+  gap: 16px;
+  font-size: 14px;
+}
+.shop-parent {
+  gap: 32px;
+}
+
+.divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  margin: 0;
+}
+
+.company-info {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Додано цей рядок */
+  width: 100%;
+}
+
+.company {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+}
+.about-us,
+.careers,
+.contact-us,
+.faqs,
+.teams {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+}
+.careers,
+.contact-us,
+.faqs,
+.teams {
+  min-width: 49px;
+}
+.contact-us,
+.faqs,
+.teams {
+  min-width: 33px;
+}
+.contact-us,
+.teams {
+  min-width: 43px;
+}
+.contact-us {
+  min-width: 69px;
+}
+.about-us-parent,
+.menufootervert4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-parent {
+  gap: 16px;
+  font-size: 14px;
+}
+.menufootervert4 {
+  gap: 32px;
+}
+.contact-us1 {
+  position: relative;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10.5px 62px;
+  background-color: #0066b0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button1:hover,
+.button:hover {
+  background-color: #268cd6;
+}
+.get-started {
+  position: relative;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 80px;
+}
+.button-parent,
+.button1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 10.5px 61px;
+  background-color: #0066b0;
+  border-radius: 5px;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.button-parent {
+  flex-direction: column;
+  gap: 32px;
+}
+.social-icon {
+  width: 12px;
+  height: 22px;
+  position: relative;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.social-icon1,
+.social-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.social-icon3 {
+  width: 23px;
+  height: 22px;
+  position: relative;
+  object-fit: cover;
+}
+.social-icons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.footer-links,
+.footer-top,
+.social-icons-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-icons-parent {
+  justify-content: flex-start;
+  gap: 24px;
+}
+.footer-links,
+.footer-top {
+  max-width: 100%;
+}
+.footer-links {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.footer-top {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.all-rights-reserved {
+  position: relative;
+  font-weight: 300;
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 27px 1px 0;
+}
+.copyright-wrapper,
+.footer,
+.footer-desktop {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.copyright-wrapper {
+  width: 1393px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12px;
+}
+.footer,
+.footer-desktop {
+  justify-content: flex-start;
+}
+.footer {
+  flex: 1;
+  background-color: #1e2531;
+  flex-direction: column;
+  padding: 66.7px 173px 12.3px 264px;
+  box-sizing: border-box;
+  gap: 80px;
+}
+.footer-desktop {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 2;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto;
+}
+@media screen and (max-width: 1350px) {
+  .footer-links {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: 40px;
+    padding-left: 132px;
+    padding-right: 86px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    gap: 20px;
+    padding-left: 66px;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+  .footer-desktop {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    padding-top: 43px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

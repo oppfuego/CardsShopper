@@ -1,0 +1,897 @@
+.find,
+.form-label {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.find {
+  min-width: 36px;
+}
+.form-label {
+  width: 55px;
+  border: 0;
+  outline: 0;
+  font-family: Gotham;
+  font-size: 16px;
+  background-color: transparent;
+  height: 22px;
+  color: #a7a7a7;
+  text-align: left;
+  padding: 0;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.form-field,
+.sort-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #f4f1ff;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  gap: 20px;
+}
+.sort-2 {
+  width: 220px;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.form-label1,
+.sort-by {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.sort-by {
+  text-decoration: none;
+  color: inherit;
+  min-width: 58px;
+}
+.form-label1 {
+  width: 50px;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.form-field1,
+.sort-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field1 {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #f4f1ff;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  gap: 20px;
+  color: #a7a7a7;
+}
+.sort-1 {
+  width: 237px;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.explore-our-gift,
+.form-label2 {
+  width: 180px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.form-label2 {
+  width: 134px;
+}
+.icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.form-field2,
+.ihop-card-title,
+.sort-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field2 {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #f4f1ff;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  box-sizing: border-box;
+  min-width: 156px;
+  white-space: nowrap;
+  gap: 20px;
+  color: #a7a7a7;
+}
+.ihop-card-title,
+.sort-3 {
+  max-width: 100%;
+}
+.sort-3 {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 23px;
+  min-width: 288px;
+}
+.ihop-card-title {
+  width: 932px;
+  justify-content: center;
+  gap: 16px;
+}
+.find-filter-child {
+  height: 8.8px;
+  width: 8.8px;
+  position: relative;
+}
+.clear-all-filters {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.find-filter {
+  width: 135.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #a7a7a7;
+}
+.amazon-icon,
+.ihop-card {
+  align-self: stretch;
+  max-width: 100%;
+}
+.ihop-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+.amazon-icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.amazon-content,
+.amazon-popularity {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.amazon-content {
+  align-self: stretch;
+  width: 402px;
+  flex-shrink: 0;
+  gap: 17px;
+  max-width: 100%;
+}
+.costa-card-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off1 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.m-o-r-r-i-g-bcard-info {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.lowes-icon,
+.m-o-r-r-i-g-bcard {
+  align-self: stretch;
+  max-width: 100%;
+}
+.m-o-r-r-i-g-bcard {
+  width: 402px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.lowes-icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off2 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.c-o-s-t-a-card-info {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.c-o-s-t-a-card,
+.ihop-icon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.c-o-s-t-a-card {
+  width: 402px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.ihop-icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off3 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.amazon-card,
+.lowes-card,
+.lowes-card-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lowes-card-info {
+  width: 205px;
+  flex-direction: column;
+  gap: 8px;
+}
+.amazon-card,
+.lowes-card {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.lowes-card {
+  align-self: stretch;
+  width: 402px;
+  flex-direction: column;
+  gap: 17px;
+}
+.amazon-card {
+  width: 1680px;
+  height: 338.5px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: 24px;
+}
+.morri-gb-card-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off4 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.morri-gb-card-parent,
+.most-popular-giftcards-parent {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.morri-gb-card-parent {
+  align-self: stretch;
+  width: 402px;
+  flex-shrink: 0;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 17px;
+  max-width: 100%;
+}
+.mores-steakhouse-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off5 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.mores-steakhouse-parent,
+.most-popular-giftcards-group {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.mores-steakhouse-parent {
+  align-self: stretch;
+  width: 402px;
+  flex-shrink: 0;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 17px;
+  max-width: 100%;
+}
+.lyft-us-card-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off6 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.lyft-us-card-parent,
+.most-popular-giftcards-container {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.lyft-us-card-parent {
+  align-self: stretch;
+  width: 402px;
+  flex-shrink: 0;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 17px;
+  max-width: 100%;
+}
+.all-bar-one {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off7 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.all-bar-one-parent,
+.amazon-card1,
+.frame-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div {
+  width: 205px;
+  flex-direction: column;
+  gap: 8px;
+}
+.all-bar-one-parent,
+.amazon-card1 {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.all-bar-one-parent {
+  align-self: stretch;
+  width: 402px;
+  flex-direction: column;
+  padding: 0 0 0.1px;
+  box-sizing: border-box;
+  gap: 17px;
+}
+.amazon-card1 {
+  width: 1680px;
+  height: 338.5px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: 24px;
+}
+.nike-gb-card-icon {
+  align-self: stretch;
+  height: 263.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.most-popular-giftcards8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off8 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.nike-card,
+.nike-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nike-info {
+  width: 205px;
+  gap: 8px;
+}
+.nike-card {
+  flex: 1;
+  gap: 17px;
+  min-width: 370px;
+  max-width: 100%;
+}
+.adidas-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #45ebf7, #83f7d2);
+}
+.image-1-icon {
+  height: 120px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.adidas-price {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 28px 0 27px;
+}
+.card-design-adidas,
+.usd-100-1000 {
+  align-self: stretch;
+  position: relative;
+}
+.usd-100-1000 {
+  line-height: 22px;
+  z-index: 1;
+}
+.card-design-adidas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 59.4px 67px 20.4px;
+  gap: 41.6px;
+  flex-shrink: 0;
+}
+.most-popular-giftcards9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off9 {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #533fac;
+  display: inline-block;
+}
+.adidas-card,
+.adidas-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.adidas-details {
+  width: 205px;
+  gap: 8px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #545454;
+}
+.adidas-card {
+  flex: 1;
+  gap: 17px;
+  min-width: 370px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+.jlseg-gb-card-icon,
+.kroger-us-card-icon {
+  height: 263.5px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 370px;
+}
+.gift-card-grid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24.1px;
+  max-width: 100%;
+}
+.pagination-block-icon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 36px;
+}
+.page-buttons {
+  position: absolute;
+  top: calc(50% + 5px);
+  left: calc(50% + 5px);
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.page-numbers {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 4px);
+  display: inline-block;
+  min-width: 8px;
+  z-index: 1;
+}
+.pagination-block {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  background-color: #c2b7ee;
+  overflow: hidden;
+  color: #fff;
+}
+.pagination-block-child {
+  position: absolute;
+  top: calc(50% + 5px);
+  left: calc(50% + 5px);
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.div1 {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 5px);
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.pagination-block1 {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #c2b7ee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.pagination-block-item {
+  position: absolute;
+  top: calc(50% + 5px);
+  left: calc(50% + 5px);
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.div2 {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 6px);
+  display: inline-block;
+  min-width: 11px;
+  z-index: 1;
+}
+.pagination-block-icon1,
+.pagination-block2 {
+  height: 36px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.pagination-block2 {
+  flex: 1;
+  border: 1px solid #c2b7ee;
+  box-sizing: border-box;
+}
+.pagination-block-icon1 {
+  width: 36px;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 36px;
+}
+.pagination,
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.pagination {
+  width: 236px;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.pagination-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #c2b7ee;
+  font-family: Inter;
+}
+.featured,
+.featured-grid {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.featured-grid {
+  width: 1680.4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 39.9px;
+}
+.featured {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 160px 21px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+  color: #545454;
+  font-family: Gotham;
+}
+@media screen and (max-width: 1200px) {
+  .ihop-card {
+    flex-wrap: wrap;
+  }
+  .featured {
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .ihop-card-title {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .featured-grid {
+    gap: 20px;
+  }
+  .featured {
+    padding-bottom: 68px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sort-3 {
+    flex-wrap: wrap;
+  }
+  .upto-10-off,
+  .upto-10-off1,
+  .upto-10-off2,
+  .upto-10-off3,
+  .upto-10-off4,
+  .upto-10-off5,
+  .upto-10-off6,
+  .upto-10-off7,
+  .upto-10-off8 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .nike-card {
+    min-width: 100%;
+  }
+  .card-design-adidas {
+    gap: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .upto-10-off9 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .adidas-card,
+  .jlseg-gb-card-icon,
+  .kroger-us-card-icon {
+    min-width: 100%;
+  }
+}

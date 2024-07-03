@@ -1,0 +1,48 @@
+.swar-card-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.most-popular-giftcards10 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.upto-10-off10 {
+  width: 172px;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  color: #533fac;
+  display: inline-block;
+}
+.popular-card-labels,
+.popular-card-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.popular-card-labels {
+  width: 205px;
+  gap: 8px;
+}
+.popular-card-names {
+  height: 338.5px;
+  gap: 17px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: #545454;
+  font-family: Gotham;
+}
+@media screen and (max-width: 450px) {
+  .upto-10-off10 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}
